@@ -8,6 +8,7 @@ Cevap :
 1.	Step : [2,27,16,22,18,6]
 2.	Step: [2,6,16,22,18,27]
 3.	step: [2,6,16,18,22,27]
+   
 Big-0 = O(n) = O(6)
 
 Time Complexity:
