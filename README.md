@@ -17,8 +17,6 @@ Average Case (18 sayısı serinin ortasında)
 
 
 Soru 2:
-7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
-[2,7,3,5,8,9,4,15,6]
-[2,3,7,5,8,9,4,15,6]
-[2,3,4,7,5,8,9,15,6]
-[2,3,4,5,7,8,9,15,6]
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+Cevap:
+[2,7,3,5,8,9,4,15,6], [2,3,7,5,8,9,4,15,6], [2,3,4,7,5,8,9,15,6], [2,3,4,5,7,8,9,15,6]
