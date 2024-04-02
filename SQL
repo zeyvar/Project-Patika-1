@@ -1,0 +1,62 @@
+CREATE TABLE employee (
+id INT,
+name VARCHAR(50) NOT NULL,
+birthday DATE,
+email VARCHAR(100)
+)
+
+insert into employee (id, name, email, birthday) values (40, 'Marlane Hayth', 'mhayth10@economist.com', '1953-05-16');
+insert into employee (id, name, email, birthday) values (79, 'Constantine Lintill', 'clintill11@histats.com', '1983-07-04');
+insert into employee (id, name, email, birthday) values (90, 'Ichabod Story', 'istory12@phpbb.com', '1938-04-13');
+insert into employee (id, name, email, birthday) values (72, 'Norbie Hulle', 'nhulle13@bbc.co.uk', '1915-03-25');
+insert into employee (id, name, email, birthday) values (91, 'Jonell Whitewood', null, '1994-12-16');
+insert into employee (id, name, email, birthday) values (50, 'Chucho Wackett', null, '1936-06-30');
+insert into employee (id, name, email, birthday) values (52, 'Wallache Maloney', 'wmaloney16@4shared.com', '1977-08-19');
+insert into employee (id, name, email, birthday) values (54, 'Nissa Hagerty', 'nhagerty17@bandcamp.com', '1934-06-24');
+insert into employee (id, name, email, birthday) values (2, 'Boycey Chaperlin', 'bchaperlin18@umn.edu', '1969-06-25');
+insert into employee (id, name, email, birthday) values (65, 'Marillin Sarge', 'msarge19@forbes.com', '1902-07-22');
+insert into employee (id, name, email, birthday) values (2, 'Alva Davion', 'adavion1a@whitehouse.gov', null);
+insert into employee (id, name, email, birthday) values (51, 'Bobette Habbergham', 'bhabbergham1b@psu.edu', '1924-08-12');
+insert into employee (id, name, email, birthday) values (99, 'Leyla Bygrove', 'lbygrove1c@accuweather.com', null);
+insert into employee (id, name, email, birthday) values (12, 'Evaleen Bruneau', 'ebruneau1d@netscape.com', '1911-05-24');
+
+SELECT * FROM employee;
+------------------------------
+
+UPDATE employee
+SET name = 'Zeynep Vargil',
+WHERE id = 93;
+
+UPDATE employee
+SET name = 'Patika Ödev',
+WHERE id = 2;
+
+UPDATE employee
+SET id= 1000
+WHERE name= 'Alva Davion';
+
+UPDATE employee
+SET id= 1099
+WHERE name= 'Leyla Bygrove';
+
+UPDATE employee
+SET id= 1052
+WHERE name= 'Wallache Maloney';
+
+-----------------------
+
+DELETE FROM employee
+WHERE id = 50;
+
+DELETE FROM employee
+WHERE id = 51;
+
+DELETE FROM employee
+WHERE email = 'ebruneau1d@netscape.com' ;
+
+DELETE FROM employee
+WHERE email = 'lbygrove1c@accuweather.com' ;
+
+
+DELETE FROM employee
+WHERE name = 'Bobette Habbergham';
